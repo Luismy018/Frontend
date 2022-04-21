@@ -3,14 +3,58 @@
     padding: 0;
 }
 
+main {
+    height: 100vh;
+    background-image: "https://cdn.pokemonmasters-game.com/stylesheets/images/6KRe3n2cScxsKvvaUuKLg_Gl4XIAoMKucdX9T11I95i.png";
+}
+
+header {
+
+
+}
 p {
     color: red;
 }
 
+.container {
+    height: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 
+}
+
+.card {
+    border: solid;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card::after {
+    content: icon;
+}
+
+.container .card p {
+    color: purple;
+
+}
+
+.card p {
+    color: orange;
+}
 /*     
 padding: 10px 20px
 px
  30px 40px;
     box-sizing: border-box;
-    width: 200px; */
+    width: 200px; 
+    
+    
+    image: https://cdn.pokemonmasters-game.com/stylesheets/images/6KRe3n2cScxsKvvaUuKLg_Gl4XIAoMKucdX9T11I95i.png
+    https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png
+
+    */
